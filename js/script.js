@@ -1,6 +1,7 @@
 "use strict"
 
-let numberOne = 1,
-    numberTwo = 2;
+const questionOne = prompt('Укажи в каком году ты родился и я сообщу сколько тебе лет?');
+const currenYear = 2020;
 
-console.log(numberOne + numberTwo);
+
+alert (currenYear - questionOne)
