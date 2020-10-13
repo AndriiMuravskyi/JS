@@ -1,3 +1,7 @@
 "use strict"
 
-document.querySelector('.output').innerHTML = 5;
+let admin;
+let name;
+name = 'Djon';
+admin = name;
+alert(typeof admin );
