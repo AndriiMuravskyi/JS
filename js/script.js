@@ -1,7 +1,6 @@
 "use strict"
 
-let admin;
-let name;
-name = 'Djon';
-admin = name;
-alert(typeof admin );
+let chpok = 0;
+while (chpok < 3) {
+    alert(chpok);
+}
