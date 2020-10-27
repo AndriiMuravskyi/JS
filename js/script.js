@@ -1,6 +1,10 @@
 "use strict"
 
-let chpok = 0;
-while (chpok < 3) {
-    alert(chpok);
+let browser = prompt('kakoy u tebya brauzer?')
+
+if (browser == 'Edge') {
+    alert ('ne poveslo!');
+} else if (browser == 'Crome') {
+    alert('poveslo');
 }
+    
