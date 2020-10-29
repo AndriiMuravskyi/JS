@@ -6,5 +6,7 @@ if (browser == 'Edge') {
     alert ('ne poveslo!');
 } else if (browser == 'Crome') {
     alert('poveslo');
+} else if (browser == 'zzz') {
+    console.log('yyyyy')
 }
     
